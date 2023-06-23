@@ -1,0 +1,4 @@
+mixin site_menu(array)
+  each item in array
+    li.site-navigation__item
+      a(href= item.linkUrl class="site-navigation__link")= item.linkTitle

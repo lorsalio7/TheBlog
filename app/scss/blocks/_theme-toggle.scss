@@ -1,0 +1,31 @@
+.theme-toggle {
+  border: 1px solid var(--color-toggle-theme-bg);
+  border-radius: 29px;
+  padding: 7px 16px;
+  width: 96px;
+  height: 40px;
+  background-image: url("../img/sun-ic.svg"), url("../img/moon-ic.svg");
+  background-position: top 50% left 16px, top 50% right 16px;
+  background-repeat: no-repeat;
+  background-color: var(--color-toggle-theme-bg);
+  transition:
+    background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.theme-toggle__switch-slider {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-site-bg);
+  transform: translateX(38px);
+  transition:
+    background-color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+
+.theme-toggle--active .theme-toggle__switch-slider {
+  transform: translateX(0);
+}

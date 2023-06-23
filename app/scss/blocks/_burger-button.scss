@@ -1,7 +1,7 @@
 .burger-button {
   position: relative;
   z-index: 150;
-  display: block;
+  display: none;
   border: none;
   padding: 0;
   width: 34px;
@@ -18,7 +18,7 @@
   display: block;
   width: 28px;
   height: 2px;
-  background-color: $color-black;
+  background-color: var(--color-black);
   transform: translate(-50%, -50%);
   transition: background-color 0.3s ease;
 }
@@ -31,7 +31,7 @@
   display: block;
   width: 28px;
   height: 2px;
-  background-color: $color-black;
+  background-color: var(--color-black);
   transition:
     top 0.3s 0.3s ease,
     transform 0.3s ease;
@@ -45,7 +45,7 @@
   display: block;
   width: 28px;
   height: 2px;
-  background-color: $color-black;
+  background-color: var(--color-black);
   transition:
     top 0.3s 0.3s ease,
     transform 0.3s ease;

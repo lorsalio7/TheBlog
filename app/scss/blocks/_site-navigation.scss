@@ -1,0 +1,25 @@
+.site-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.site-navigation__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation__item {
+  margin-right: 14px;
+}
+
+.site-navigation__link {
+  padding: 8px;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--color-title);
+  transition: color 0.3s ease-in-out;
+}

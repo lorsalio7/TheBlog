@@ -9,5 +9,7 @@ html {
 }
 
 body {
-  font-family: $sans-serif;
+  font-family: var(--sans-serif);
+  background-color: var(--color-site-bg);
+  transition: background-color 0.3s ease-in-out;
 }

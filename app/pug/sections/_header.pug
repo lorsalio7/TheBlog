@@ -1,7 +1,13 @@
-header.header This is header
-  button(type="button" class="burger-button" aria-label="Открыть меню")
-    span.burger-button__line
-picture
-  source(type="image/avif" srcset="")
-  source(type="image/webp" srcset="")
-  img(src="" loading="lazy" width="" height="").
+header.site-header
+  .container.site-header__container
+    a(href="/").logo Your Name
+    nav.site-navigation
+      ul.site-navigation__list
+        +site_menu(siteNavigation)
+      button(type="button" aria-label="Change theme").theme-toggle
+        span.theme-toggle__switch-slider
+      button(type="button" aria-label="Close menu").close-button
+        span.close-button__line
+    button(type="button" class="burger-button" aria-label="Open menu")
+      span.burger-button__line
+

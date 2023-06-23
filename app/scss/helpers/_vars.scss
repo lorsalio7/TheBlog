@@ -1,5 +1,18 @@
-$sans-serif: "Arial", "Helvetica", "Verdana", sans-serif;
-$serif: "Times New Roman", "Georgia", "Baskerville", serif;
-$container-width: 1200px;
-$color-white: 255 255 255;
-$color-black: 0 0 0;
+:root {
+  --sans-serif: "Inter", "Helvetica", "Verdana", sans-serif;
+  --serif: "Times New Roman", "Georgia", "Baskerville", serif;
+  --container-width: 1246px;
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0); /* #000 */
+  --color-site-bg: rgb(255, 255, 255); /* #fff */
+  --color-title: rgb(26, 26, 26); /* #1A1A1A */
+  --color-toggle-theme-bg: rgb(9, 13, 31); /* #090D1F */
+  --color-pagination-border: rgb(234, 236, 240); /* #EAECF0 */
+}
+
+.dark-theme {
+  --color-site-bg: rgb(9, 13, 31); /* #090D1F */
+  --color-title: rgb(255, 255, 255); /* #fff */
+  --color-toggle-theme-bg: rgb(255, 255, 255); /* #fff */
+  --color-pagination-border: rgba(234, 236, 240, 34%); /* #EAECF0 */
+}

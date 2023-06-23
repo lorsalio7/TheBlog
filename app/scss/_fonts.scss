@@ -1,2 +1,5 @@
 // @include font("$name", "$font-family", $weight, $style);
-@include font("MontserratRegular", "Montserrat", 400, normal);
+@include font("InterRegular", "Inter", 400, normal);
+@include font("InterMedium", "Inter", 500, normal);
+@include font("InterSemiBold", "Inter", 600, normal);
+@include font("InterBold", "Inter", 700, normal);
