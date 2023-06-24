@@ -16,10 +16,30 @@
 }
 
 .site-navigation__link {
+  position: relative;
   padding: 8px;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
   color: var(--color-title);
   transition: color 0.3s ease-in-out;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: none;
+    width: calc(100% - 8px * 2);
+    height: 1px;
+    background-color: var(--color-title);
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  @include hover-focus {
+    &::before {
+      display: block;
+    }
+  }
 }

@@ -4,15 +4,18 @@
   --container-width: 1246px;
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(0, 0, 0); /* #000 */
-  --color-site-bg: rgb(255, 255, 255); /* #fff */
+  --color-primary: rgb(255, 255, 255); /* #fff */
+  --color-secondary: rgb(9, 13, 31); /* #090D1F */
+  --color-accent: rgb(105, 65, 198); /* #6941C6 */
   --color-title: rgb(26, 26, 26); /* #1A1A1A */
-  --color-toggle-theme-bg: rgb(9, 13, 31); /* #090D1F */
+  --color-header-border: rgba(0, 0, 0, 34%);
   --color-pagination-border: rgb(234, 236, 240); /* #EAECF0 */
 }
 
 .dark-theme {
-  --color-site-bg: rgb(9, 13, 31); /* #090D1F */
+  --color-primary: rgb(9, 13, 31); /* #090D1F */
+  --color-secondary: rgb(255, 255, 255); /* #fff */
   --color-title: rgb(255, 255, 255); /* #fff */
-  --color-toggle-theme-bg: rgb(255, 255, 255); /* #fff */
+  --color-header-border: rgb(255, 255, 255); /* #fff */
   --color-pagination-border: rgba(234, 236, 240, 34%); /* #EAECF0 */
 }

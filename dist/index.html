@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="en">
+<html class="page full-height" lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,29 +9,55 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/styles.min.css">
   </head>
-  <body class="page__body">
+  <body class="page__body full-height">
     <div class="wrapper">
       <header class="site-header">
-        <div class="container site-header__container"><a class="logo" href="/">Your Name</a>
-          <nav class="site-navigation">
-            <ul class="site-navigation__list">
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#">Blog</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#">Projects</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#">About</a></li>
-              <li class="site-navigation__item"><a class="site-navigation__link" href="#">Newsletter</a></li>
-            </ul>
-            <button class="theme-toggle" type="button" aria-label="Change theme"><span class="theme-toggle__switch-slider"></span></button>
-            <button class="close-button" type="button" aria-label="Close menu"><span class="close-button__line"></span></button>
-          </nav>
-          <button class="burger-button" type="button" aria-label="Open menu"><span class="burger-button__line"></span></button>
+        <div class="container site-header__container">
+          <div class="site-header__top"><a class="logo" href="/">Your Name</a>
+            <nav class="site-navigation">
+              <ul class="site-navigation__list">
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#">Blog</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#">Projects</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#">About</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#">Newsletter</a></li>
+              </ul>
+              <button class="theme-toggle" type="button" aria-label="Change theme"><span class="theme-toggle__switch-slider"></span></button>
+              <button class="close-button" type="button" aria-label="Close menu"><span class="close-button__line"></span></button>
+            </nav>
+            <button class="burger-button" type="button" aria-label="Open menu"><span class="burger-button__line"></span></button>
+          </div>
+          <div class="site-header__bottom">
+            <h1 class="site-header__title">The blog</h1>
+          </div>
         </div>
       </header>
-      <footer class="footer">This is footer change
-        <ul class="footer-list">
-          <li class="footer-list__item">li text</li>
-          <li class="footer-list__item">li text 2</li>
-          <li class="footer-list__item">li text 3</li>
-        </ul>
+      <main class="main">
+        <section class="recent-posts">
+          <div class="container">
+            <h2 class="section-title">Recent blog posts</h2>
+            <div class="recent-posts__row">
+              <div class="recent-posts__column">
+                <article class="big-article">big article</article>
+              </div>
+              <div class="recent-posts__column">
+                <article class="small-article">small article</article>
+                <article class="small-article">small article</article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="container site-footer__container">
+          <p class="site-footer__copyright">&copy; 2023</p>
+          <ul class="site-footer__list">
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Twitter</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">LinkedIn</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Email</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">RSS feed</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Add to Feedly</a></li>
+          </ul>
+        </div>
       </footer>
     </div>
     <script src="js/script.min.js" defer></script>

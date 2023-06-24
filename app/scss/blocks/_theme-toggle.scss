@@ -7,7 +7,7 @@
   background-image: url("../img/sun-ic.svg"), url("../img/moon-ic.svg");
   background-position: top 50% left 16px, top 50% right 16px;
   background-repeat: no-repeat;
-  background-color: var(--color-toggle-theme-bg);
+  background-color: var(--color-secondary);
   transition:
     background-color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
@@ -19,8 +19,8 @@
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  background-color: var(--color-site-bg);
-  transform: translateX(38px);
+  background-color: var(--color-primary);
+  transform: translateX(40px);
   transition:
     background-color 0.3s ease-in-out,
     transform 0.3s ease-in-out;

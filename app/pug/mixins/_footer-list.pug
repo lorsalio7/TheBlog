@@ -1,0 +1,4 @@
+mixin footer-list(array)
+  each item in array
+    li.site-footer__item
+      a(href= item.linkUrl).site-footer__link= item.linkName

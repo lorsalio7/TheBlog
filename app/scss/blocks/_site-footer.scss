@@ -1,0 +1,37 @@
+.site-footer {
+  padding: 30px 0;
+}
+
+.site-footer__container {
+  display: flex;
+}
+
+.site-footer__copyright {
+  margin: 0;
+  margin-right: 14px;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-title);
+}
+
+.site-footer__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer__item:not(:last-of-type) {
+  margin-right: 14px;
+}
+
+.site-footer__link {
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--color-title);
+
+  @include hover-focus {
+    text-decoration: underline;
+  }
+}

@@ -2,11 +2,12 @@ extends ../layout/main-template.pug
 
 block vars
   - var pageTitle = "The Blog";
-  - var htmlClass = "page";
+  - var htmlClass = "page full-height";
   - var bodyClass = "page__body";
 
 
 block content
   include ../sections/_header.pug
+  include ../sections/_index-main.pug
   include ../sections/_footer.pug
 
