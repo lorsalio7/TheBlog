@@ -1,0 +1,19 @@
+.all-posts__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  margin-right: -32px;
+  padding: 0;
+}
+
+.all-posts__item {
+  flex-grow: 1;
+  flex-basis: calc((100% - 32px * 3 - 30px) / 3);
+  margin-right: 32px;
+  margin-bottom: 48px;
+}
+
+.all-posts__article-card .article-card__image-wrapper {
+  height: 240px;
+}

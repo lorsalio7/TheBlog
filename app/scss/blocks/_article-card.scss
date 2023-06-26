@@ -29,6 +29,10 @@
   height: 246px;
 }
 
+.article-card--small-card .article-card__image-wrapper {
+  flex-basis: 64.6%;
+}
+
 .article-card__image {
   display: block;
   width: 100%;
@@ -89,6 +93,14 @@
   background-size: 24px;
   background-repeat: no-repeat;
   transition: color 0.3s ease-in-out;
+
+  @include hover-focus {
+    text-decoration: underline;
+  }
+}
+
+.dark-theme .article-card__link {
+  background-image: url("../img/arrow-up-right-night.svg");
 }
 
 .article-card--small-card .article-card__link {

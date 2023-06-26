@@ -529,6 +529,10 @@ body {
           flex: 1 1 auto;
 }
 
+.page__recent-posts {
+  margin-bottom: 60px;
+}
+
 .site-header {
   padding: 30px 0;
 }
@@ -774,6 +778,8 @@ body {
 }
 
 .section-title {
+  margin-top: 0;
+  margin-bottom: 32px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -822,6 +828,11 @@ body {
 .article-card--big-card .article-card__image-wrapper {
   margin-right: 32px;
   height: 246px;
+}
+
+.article-card--small-card .article-card__image-wrapper {
+  -ms-flex-preferred-size: 64.6%;
+      flex-basis: 64.6%;
 }
 
 .article-card__image {
@@ -889,6 +900,10 @@ body {
   background-repeat: no-repeat;
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
+}
+
+.dark-theme .article-card__link {
+  background-image: url("../img/arrow-up-right-night.svg");
 }
 
 .article-card--small-card .article-card__link {
@@ -972,6 +987,32 @@ body {
   background-color: var(--color-pink-light);
 }
 
+.all-posts__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  margin-right: -32px;
+  padding: 0;
+}
+
+.all-posts__item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: calc((100% - 96px - 30px) / 3);
+      flex-basis: calc((100% - 96px - 30px) / 3);
+  margin-right: 32px;
+  margin-bottom: 48px;
+}
+
+.all-posts__article-card .article-card__image-wrapper {
+  height: 240px;
+}
+
 .site-footer {
   padding: 30px 0;
 }
@@ -1017,6 +1058,14 @@ body {
 
   .site-navigation__link:hover::before {
     display: block;
+  }
+
+  .article-card__link:focus {
+    text-decoration: underline;
+  }
+
+  .article-card__link:hover {
+    text-decoration: underline;
   }
 
   .site-footer__link:focus {
