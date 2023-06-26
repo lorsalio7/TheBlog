@@ -1,4 +1,13 @@
 .recent-posts__row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.recent-posts__column {
+  flex: 1 1 50%;
+}
+
+.recent-posts__column:first-of-type {
+  margin-right: 32px;
 }

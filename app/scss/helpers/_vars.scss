@@ -9,7 +9,26 @@
   --color-accent: rgb(105, 65, 198); /* #6941C6 */
   --color-title: rgb(26, 26, 26); /* #1A1A1A */
   --color-header-border: rgba(0, 0, 0, 34%);
+  --color-paragraph: rgb(102, 112, 133); /* #667085 */
   --color-pagination-border: rgb(234, 236, 240); /* #EAECF0 */
+
+  /* Badges color: */
+  --color-purple: rgb(105, 65, 198);
+  --color-purple-light: rgb(249, 245, 255);
+  --color-red-violet: rgb(193, 21, 116);
+  --color-red-violet-light: rgb(253, 242, 250);
+  --color-deep-blue: rgb(53, 56, 205);
+  --color-deep-blue-light: rgb(238, 244, 255);
+  --color-cerulean: rgb(2, 106, 162);
+  --color-cerulean-light: rgb(240, 249, 255);
+  --color-green: rgb(2, 122, 72);
+  --color-green-light: rgb(236, 253, 243);
+  --color-dark-blue: rgb(54, 63, 114);
+  --color-dark-blue-light: rgb(248, 249, 252);
+  --color-orange: rgb(196, 50, 10);
+  --color-orange-light: rgb(255, 246, 237);
+  --color-pink: rgb(192, 16, 72);
+  --color-pink-light: rgb(255, 241, 243);
 }
 
 .dark-theme {
@@ -17,5 +36,6 @@
   --color-secondary: rgb(255, 255, 255); /* #fff */
   --color-title: rgb(255, 255, 255); /* #fff */
   --color-header-border: rgb(255, 255, 255); /* #fff */
+  --color-paragraph: rgb(192, 197, 208); /* #C0C5D0 */
   --color-pagination-border: rgba(234, 236, 240, 34%); /* #EAECF0 */
 }

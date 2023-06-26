@@ -3,10 +3,57 @@ section.recent-posts
     h2.section-title Recent blog posts
     .recent-posts__row
       .recent-posts__column
-        article.big-article
-          | big article
+        article.article-card
+          .article-card__image-wrapper
+            img(src="img/recent-article-img-1.jpg" width="780" height="430", alt="UX review presentations").article-card__image
+          .article-card__text-content
+            p.article-card__meta
+              a(href="#").article-card__author Olivia Rhye
+              time(datetime="2023-01-01").article-card__date 1 Jan 2023
+            h3.article-card__title
+              a(href="#").article-card__link UX review presentations
+            p.article-card__description How do you create compelling presentations that wow your colleagues and impress your managers?
+            p.article-card__tag-list
+              a(href="#").article-card__tag.article-card__tag--purple Design
+              a(href="#").article-card__tag.article-card__tag--deep-blue Research
+              a(href="#").article-card__tag.article-card__tag--red-violet Presentation
       .recent-posts__column
-        article.small-article
-          | small article
-        article.small-article
-          | small article
+        article.article-card.article-card--row.article-card--small-card
+          .article-card__image-wrapper
+            img(src="img/recent-article-img-2.jpg" width="780" height="430", alt="Migrating to Linear 101").article-card__image
+          .article-card__text-content
+            p.article-card__meta
+              a(href="#").article-card__author Phoenix Baker
+              time(datetime="2023-01-01").article-card__date 1 Jan 2023
+            h3.article-card__title
+              a(href="#").article-card__link Migrating to Linear 101
+            p.article-card__description Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...
+            p.article-card__tag-list
+              a(href="#").article-card__tag.article-card__tag--cerulean Design
+              a(href="#").article-card__tag.article-card__tag--red-violet Research
+        article.article-card.article-card--row.article-card--small-card
+          .article-card__image-wrapper
+            img(src="img/recent-article-img-3.jpg" width="780" height="430", alt="Building your API Stack").article-card__image
+          .article-card__text-content
+            p.article-card__meta
+              a(href="#").article-card__author Lana Steiner
+              time(datetime="2023-01-01").article-card__date 1 Jan 2023
+            h3.article-card__title
+              a(href="#").article-card__link Building your API Stack
+            p.article-card__description The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...
+            p.article-card__tag-list
+              a(href="#").article-card__tag.article-card__tag--green Design
+              a(href="#").article-card__tag.article-card__tag--red-violet Research
+    article.article-card.article-card--row.article-card--big-card
+      .article-card__image-wrapper
+        img(src="img/recent-article-img-4.jpg" width="780" height="430", alt="Grid system for better Design User Interface").article-card__image
+      .article-card__text-content
+        p.article-card__meta
+          a(href="#").article-card__author Olivia Rhye
+          time(datetime="2023-01-01").article-card__date 1 Jan 2023
+        h3.article-card__title
+          a(href="#").article-card__link Grid system for better Design User Interface
+        p.article-card__description A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.
+        p.article-card__tag-list
+          a(href="#").article-card__tag.article-card__tag--purple Design
+          a(href="#").article-card__tag.article-card__tag--red-violet Interface
