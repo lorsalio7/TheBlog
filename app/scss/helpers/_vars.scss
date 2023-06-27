@@ -11,6 +11,9 @@
   --color-header-border: rgba(0, 0, 0, 34%);
   --color-paragraph: rgb(102, 112, 133); /* #667085 */
   --color-pagination-border: rgb(234, 236, 240); /* #EAECF0 */
+  --color-pagination: rgb(102, 112, 133); /* #667085 */
+  --color-pagination-current: rgb(127, 86, 217); /* #7F56D9 */
+  --color-pagination-current-bg: rgb(249, 245, 255); /* #F9F5FF */
 
   /* Badges color: */
   --color-purple: rgb(105, 65, 198);
@@ -38,4 +41,7 @@
   --color-header-border: rgb(255, 255, 255); /* #fff */
   --color-paragraph: rgb(192, 197, 208); /* #C0C5D0 */
   --color-pagination-border: rgba(234, 236, 240, 34%); /* #EAECF0 */
+  --color-pagination: rgb(239, 239, 239); /* #efefef */
+  --color-pagination-current: rgb(17, 34, 17); /* #112211 */
+  --color-pagination-current-bg: rgb(249, 245, 255); /* #F9F5FF */
 }

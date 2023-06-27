@@ -402,6 +402,12 @@ template {
   /* #667085 */
   --color-pagination-border: rgb(234, 236, 240);
   /* #EAECF0 */
+  --color-pagination: rgb(102, 112, 133);
+  /* #667085 */
+  --color-pagination-current: rgb(127, 86, 217);
+  /* #7F56D9 */
+  --color-pagination-current-bg: rgb(249, 245, 255);
+  /* #F9F5FF */
   /* Badges color: */
   --color-purple: rgb(105, 65, 198);
   --color-purple-light: rgb(249, 245, 255);
@@ -434,6 +440,12 @@ template {
   /* #C0C5D0 */
   --color-pagination-border: rgba(234, 236, 240, 34%);
   /* #EAECF0 */
+  --color-pagination: rgb(239, 239, 239);
+  /* #efefef */
+  --color-pagination-current: rgb(17, 34, 17);
+  /* #112211 */
+  --color-pagination-current-bg: rgb(249, 245, 255);
+  /* #F9F5FF */
 }
 
 .container {
@@ -1013,6 +1025,114 @@ body {
   height: 240px;
 }
 
+.pagination__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid var(--color-pagination-border);
+}
+
+.pagination__previous-link {
+  padding-left: 28px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+  background-image: url("../img/arrow-left-day.svg");
+  background-position: left center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.dark-theme .pagination__previous-link {
+  background-image: url("../img/arrow-left-night.svg");
+}
+
+.pagination__next-link {
+  padding-right: 28px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+  background-image: url("../img/arrow-right-day.svg");
+  background-position: right center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.dark-theme .pagination__next-link {
+  background-image: url("../img/arrow-right-night.svg");
+}
+
+.pagination__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination__item:not(:last-of-type) {
+  margin-right: 2px;
+}
+
+.pagination__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  height: 40px;
+  min-width: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+}
+
+.pagination__link--current {
+  color: var(--color-pagination-current);
+  background-color: var(--color-pagination-current-bg);
+}
+
+.pagination__link--disabled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  height: 40px;
+  min-width: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+}
+
 .site-footer {
   padding: 30px 0;
 }
@@ -1066,6 +1186,32 @@ body {
 
   .article-card__link:hover {
     text-decoration: underline;
+  }
+
+  .pagination__previous-link:focus {
+    text-decoration: underline;
+  }
+
+  .pagination__previous-link:hover {
+    text-decoration: underline;
+  }
+
+  .pagination__next-link:focus {
+    text-decoration: underline;
+  }
+
+  .pagination__next-link:hover {
+    text-decoration: underline;
+  }
+
+  .pagination__link:focus {
+    color: var(--color-pagination-current);
+    background-color: var(--color-pagination-current-bg);
+  }
+
+  .pagination__link:hover {
+    color: var(--color-pagination-current);
+    background-color: var(--color-pagination-current-bg);
   }
 
   .site-footer__link:focus {

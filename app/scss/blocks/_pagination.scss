@@ -1,0 +1,98 @@
+.pagination__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid var(--color-pagination-border);
+}
+
+.pagination__previous-link {
+  padding-left: 28px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+  background-image: url("../img/arrow-left-day.svg");
+  background-position: left center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+
+  @include hover-focus {
+    text-decoration: underline;
+  }
+}
+
+.dark-theme .pagination__previous-link {
+  background-image: url("../img/arrow-left-night.svg");
+}
+
+.pagination__next-link {
+  padding-right: 28px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+  background-image: url("../img/arrow-right-day.svg");
+  background-position: right center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+
+  @include hover-focus {
+    text-decoration: underline;
+  }
+}
+
+.dark-theme .pagination__next-link {
+  background-image: url("../img/arrow-right-night.svg");
+}
+
+.pagination__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination__item:not(:last-of-type) {
+  margin-right: 2px;
+}
+
+.pagination__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  height: 40px;
+  min-width: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+
+  @include hover-focus {
+    color: var(--color-pagination-current);
+    background-color: var(--color-pagination-current-bg);
+  }
+}
+
+.pagination__link--current {
+  color: var(--color-pagination-current);
+  background-color: var(--color-pagination-current-bg);
+}
+
+.pagination__link--disabled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  height: 40px;
+  min-width: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-pagination);
+}
