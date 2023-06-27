@@ -13,7 +13,7 @@
 }
 
 .article-card__image-wrapper {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   height: 228px;
 }
 
@@ -47,10 +47,11 @@
 .article-card__meta {
   display: flex;
   margin-top: 0;
+  margin-bottom: 13px;
 }
 
 .article-card__author {
-  margin-right: 4px;
+  margin-right: 6px;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -113,7 +114,7 @@
 
 .article-card__description {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 23px;
   font-size: 16px;
   line-height: 24px;
   color: var(--color-paragraph);
@@ -138,7 +139,7 @@
 }
 
 .article-card__tag:not(:last-of-type) {
-  margin-right: 8px;
+  margin-right: 9px;
 }
 
 .article-card__tag--purple {
