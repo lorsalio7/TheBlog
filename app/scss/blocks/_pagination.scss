@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid var(--color-pagination-border);
-  padding-top: 20px;
+  padding-top: 21px;
   padding-bottom: 30px;
 }
 
@@ -45,6 +45,15 @@
 
 .dark-theme .pagination__next-link {
   background-image: url("../img/arrow-right-night.svg");
+}
+
+.pagination__previous-link--disable,
+.pagination__next-link--disable {
+  opacity: 0.6;
+
+  @include hover-focus {
+    text-decoration: none;
+  }
 }
 
 .pagination__list {

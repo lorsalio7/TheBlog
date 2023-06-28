@@ -1,19 +1,20 @@
 .pagination
-  .container.pagination__container
-    a(href="#").pagination__previous-link Previous
-    ul.pagination__list
-      li.pagination__item
-        a.pagination__link.pagination__link--current 1
-      li.pagination__item
-        a(href="#").pagination__link 2
-      li.pagination__item
-        a(href="#").pagination__link 3
-      li.pagination__item
-        span.pagination__link--disabled ...
-      li.pagination__item
-        a(href="#").pagination__link 8
-      li.pagination__item
-        a(href="#").pagination__link 9
-      li.pagination__item
-        a(href="#").pagination__link 10
-    a(href="#").pagination__next-link Next
+  .container
+    .pagination__container
+      a(title="Previous page").pagination__previous-link.pagination__previous-link--disable Previous
+      ul.pagination__list
+        li.pagination__item
+          a.pagination__link.pagination__link--current 1
+        li.pagination__item
+          a(href="#" title="Page 2").pagination__link 2
+        li.pagination__item
+          a(href="#" title="Page 3").pagination__link 3
+        li.pagination__item
+          span.pagination__link--disabled ...
+        li.pagination__item
+          a(href="#" title="Page 8").pagination__link 8
+        li.pagination__item
+          a(href="#" title="Page 9").pagination__link 9
+        li.pagination__item
+          a(href="#" title="Page 10").pagination__link 10
+      a(href="#" title="Next page").pagination__next-link Next
