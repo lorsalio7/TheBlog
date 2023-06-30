@@ -1,0 +1,63 @@
+.badge-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: -9px;
+}
+
+.badge-list__item {
+  display: inline-block;
+  margin-bottom: 9px;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.badge-list__item:not(:last-of-type) {
+  margin-right: 9px;
+}
+
+.badge-list__item--purple {
+  color: var(--color-purple);
+  background-color: var(--color-purple-light);
+}
+
+.badge-list__item--red-violet {
+  color: var(--color-red-violet);
+  background-color: var(--color-red-violet-light);
+}
+
+.badge-list__item--deep-blue {
+  color: var(--color-deep-blue);
+  background-color: var(--color-deep-blue-light);
+}
+
+.badge-list__item--cerulean {
+  color: var(--color-cerulean);
+  background-color: var(--color-cerulean-light);
+}
+
+.badge-list__item--green {
+  color: var(--color-green);
+  background-color: var(--color-green-light);
+}
+
+.badge-list__item--dark-blue {
+  color: var(--color-dark-blue);
+  background-color: var(--color-dark-blue-light);
+}
+
+.badge-list__item--orange {
+  color: var(--color-orange);
+  background-color: var(--color-orange-light);
+}
+
+.badge-list__item--pink {
+  color: var(--color-pink);
+  background-color: var(--color-pink-light);
+}

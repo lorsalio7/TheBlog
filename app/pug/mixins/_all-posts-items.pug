@@ -1,16 +1,32 @@
 mixin all-posts(array)
   each item in array
-    li.all-posts__item
-      article.article-card.all-posts__article-card
-        .article-card__image-wrapper
-          img(src="img/" + item.postImage width="780" height="430", alt= item.postTitle).article-card__image
-        .article-card__text-content
-          p.article-card__meta
-            a(href= item.postAuthorLink).article-card__author= item.postAuthor
-            time(datetime= item.postDateTime).article-card__date= item.postDate
-          h3.article-card__title
-            a(href= item.postLink).article-card__link= item.postTitle
-          p.article-card__description= item.postDescription
-          p.article-card__tag-list
-            each badge in item.postBadges
-              a(href="#" class="article-card__tag article-card__tag--" + badge.badgeColor)= badge.badgeName
+    if htmlClass === "page"
+      li.all-posts__item
+        article.article-card.all-posts__article-card
+          .article-card__image-wrapper
+            img(src="img/" + item.postImage width="780" height="430", alt= item.postTitle).article-card__image
+          .article-card__text-content
+            p.article-meta.article-card__article-meta
+              a(href= item.postAuthorLink).article-meta__author= item.postAuthor
+              time(datetime= item.postDateTime).article-meta__date= item.postDate
+            h3.article-card__title
+              a(href= item.postLink).article-card__link= item.postTitle
+            p.article-card__description= item.postDescription
+            p.badge-list
+              each badge in item.postBadges
+                a(href="#" class="badge-list__item badge-list__item--" + badge.badgeColor)= badge.badgeName
+    else
+      li.latest-posts__item
+        article.article-card
+          .article-card__image-wrapper
+            img(src="img/" + item.postImage width="780" height="430", alt= item.postTitle).article-card__image
+          .article-card__text-content
+            p.article-meta.article-card__article-meta
+              a(href= item.postAuthorLink).article-meta__author= item.postAuthor
+              time(datetime= item.postDateTime).article-meta__date= item.postDate
+            h3.article-card__title
+              a(href= item.postLink).article-card__link= item.postTitle
+            p.article-card__description= item.postDescription
+            p.badge-list
+              each badge in item.postBadges
+                a(href="#" class="badge-list__item badge-list__item--" + badge.badgeColor)= badge.badgeName

@@ -1,0 +1,27 @@
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.article-meta__author {
+  margin-right: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-accent);
+
+  &::after {
+    content: ",";
+    padding-left: 4px;
+  }
+}
+
+.article-meta__date {
+  margin-right: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-accent);
+}

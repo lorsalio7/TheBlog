@@ -1,0 +1,93 @@
+.raw-content {
+  padding-bottom: 12px;
+}
+
+.raw-content p {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-paragraph);
+}
+
+.raw-content p a {
+  color: var(--color-paragraph);
+
+  @include hover-focus {
+    color: var(--color-accent);
+  }
+}
+
+.raw-content figure {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.raw-content figure img {
+  margin-bottom: 12px;
+}
+
+.raw-content figure figcaption {
+  margin: 0 auto;
+  max-width: 567px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-paragraph);
+}
+
+.raw-content h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: var(--color-title);
+}
+
+.raw-content h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: var(--color-title);
+}
+
+.raw-content h4 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: var(--color-title);
+}
+
+.raw-content h5 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: var(--color-title);
+}
+
+.raw-content h6 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 10px;
+  color: var(--color-title);
+}
+
+.raw-content ul {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-left: 24px;
+}
+
+.raw-content ul li {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-paragraph);
+}
+
+.raw-content ul li a {
+  color: var(--color-paragraph);
+
+  @include hover-focus {
+    color: var(--color-accent);
+  }
+}

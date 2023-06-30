@@ -1,0 +1,9 @@
+.latest-posts__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-posts__item:not(:last-of-type) {
+  margin-bottom: 32px;
+}

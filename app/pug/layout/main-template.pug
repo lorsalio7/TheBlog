@@ -3,6 +3,7 @@ include ../mixins/_variables.pug
 block vars
   - var pageTitle = "Main title";
   - var htmlClass = "";
+  - var additionalClasses = "";
   - var bodyClass = "";
 
 block mixins
@@ -12,7 +13,7 @@ block mixins
 
 
 doctype html
-html(lang="en" class= htmlClass)
+html(lang="en" class= htmlClass + additionalClasses)
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")

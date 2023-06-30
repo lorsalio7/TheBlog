@@ -1,0 +1,16 @@
+.blog-post-page__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.blog-post-page__article-post {
+  flex-grow: 0;
+  flex-shrink: 1;
+  max-width: 780px;
+}
+
+.blog-post-page__sidebar {
+  flex: 1 1 406px;
+  margin-right: 32px;
+}

@@ -1,0 +1,12 @@
+extends ../layout/main-template.pug
+
+block vars
+  - var pageTitle = "Blog post";
+  - var htmlClass = "blog-post-page";
+  - var additionalClasses = " page full-height"
+  - var bodyClass = "page__body blog-post-page__body";
+
+block content
+  include ../sections/_header.pug
+  include ../sections/_blog-post-main.pug
+  include ../sections/_footer.pug
