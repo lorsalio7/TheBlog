@@ -1,0 +1,32 @@
+.subscription-form__row {
+  display: flex;
+  justify-content: center;
+}
+
+.subscription-form__input-wrapper {
+  flex-basis: 360px;
+  margin-right: 16px;
+}
+
+.subscription-form__input {
+  margin-bottom: 8px;
+  border: 1px solid var(--color-input-border);
+  border-radius: 8px;
+  padding: 12px 15px;
+  width: 100%;
+}
+
+.subscription-form__signature {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-paragraph);
+}
+
+.subscription-form__signature a {
+  color: var(--color-paragraph);
+
+  @include hover-focus {
+    color: var(--color-accent);
+  }
+}

@@ -398,6 +398,8 @@ template {
   --color-title: rgb(26, 26, 26);
   /* #1A1A1A */
   --color-title-border: rgba(0, 0, 0, 34%);
+  --color-button-bg: rgb(127, 86, 217);
+  /* #7F56D9 */
   --color-paragraph: rgb(102, 112, 133);
   /* #667085 */
   --color-pagination-border: rgb(234, 236, 240);
@@ -408,6 +410,8 @@ template {
   /* #7F56D9 */
   --color-pagination-current-bg: rgb(249, 245, 255);
   /* #F9F5FF */
+  --color-input-border: rgb(208, 213, 221);
+  /* #D0D5DD */
   /* Badges color: */
   --color-purple: rgb(105, 65, 198);
   --color-purple-light: rgb(249, 245, 255);
@@ -772,6 +776,15 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: var(--color-title);
+}
+
+.button {
+  border: 1px solid var(--color-button-bg);
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: var(--color-white);
+  background-color: var(--color-button-bg);
+  cursor: pointer;
 }
 
 .recent-posts__row {
@@ -1335,6 +1348,71 @@ body {
   margin-bottom: 32px;
 }
 
+.subscription__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-button-bg);
+}
+
+.subscription__subtitle {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  text-align: center;
+  color: var(--color-title);
+}
+
+.subscription__description {
+  margin-top: 0;
+  margin-bottom: 40px;
+  max-width: 768px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-paragraph);
+}
+
+.subscription-form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscription-form__input-wrapper {
+  -ms-flex-preferred-size: 360px;
+      flex-basis: 360px;
+  margin-right: 16px;
+}
+
+.subscription-form__input {
+  margin-bottom: 8px;
+  border: 1px solid var(--color-input-border);
+  border-radius: 8px;
+  padding: 12px 15px;
+  width: 100%;
+}
+
+.subscription-form__signature {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-paragraph);
+}
+
+.subscription-form__signature a {
+  color: var(--color-paragraph);
+}
+
 @media (hover: hover) {
   .site-navigation__link:focus::before {
     display: block;
@@ -1409,6 +1487,14 @@ body {
   }
 
   .raw-content ul li a:hover {
+    color: var(--color-accent);
+  }
+
+  .subscription-form__signature a:focus {
+    color: var(--color-accent);
+  }
+
+  .subscription-form__signature a:hover {
     color: var(--color-accent);
   }
 }

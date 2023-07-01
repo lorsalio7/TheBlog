@@ -1,0 +1,30 @@
+.subscription__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-button-bg);
+}
+
+.subscription__subtitle {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  text-align: center;
+  color: var(--color-title);
+}
+
+.subscription__description {
+  margin-top: 0;
+  margin-bottom: 40px;
+  max-width: 768px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-paragraph);
+}
