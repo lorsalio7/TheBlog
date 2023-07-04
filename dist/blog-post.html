@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="blog-post-page page full-height" lang="en">
+<html class="page full-height" lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/styles.min.css">
   </head>
-  <body class="page__body blog-post-page__body full-height">
+  <body class="page__body full-height">
     <div class="wrapper">
       <header class="site-header page__site-header">
         <div class="container site-header__container"><a class="logo" href="/">Your Name</a>
@@ -28,9 +28,9 @@
       </header>
       <main class="main">
         <div class="container">
-          <div class="blog-post-page__wrapper">
-            <div class="main__content">
-              <article class="article-post blog-post-page__article-post">
+          <div class="full-post">
+            <div class="full-post__article-post">
+              <article class="full-post__article-post article-post">
                 <p class="article-meta article-post__article-meta"><a class="article-meta__author" href="#">Olivia Rhye</a>
                   <time class="article-meta__date" datetime="2023-01-01">1 Jan 2023</time>
                 </p>
@@ -121,12 +121,12 @@
                 </form>
               </section>
             </div>
-            <aside class="sidebar blog-post-page__sidebar">
+            <div class="full-post__latest-posts">
               <section class="latest-posts">
                 <h2 class="section-title">Recent blog posts</h2>
                 <ul class="latest-posts__list">
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/recent-article-img-1.jpg" width="780" height="430" alt="UX review presentations"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Olivia Rhye</a>
@@ -139,8 +139,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/recent-article-img-2.jpg" width="780" height="430" alt="Migrating to Linear 101"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Phoenix Baker</a>
@@ -153,8 +153,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/recent-article-img-3.jpg" width="780" height="430" alt="Building your API Stack"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Lana Steiner</a>
@@ -167,8 +167,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-1.jpg" width="780" height="430" alt="Bill Walsh leadership lessons"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Alec Whitten</a>
@@ -181,8 +181,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-2.jpg" width="780" height="430" alt="PM mental models"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Demi WIlkinson</a>
@@ -195,8 +195,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-3.jpg" width="780" height="430" alt="What is Wireframing?"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Candice Wu</a>
@@ -209,8 +209,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-4.jpg" width="780" height="430" alt="How collaboration makes us better designers"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Natali Craig</a>
@@ -223,8 +223,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-5.jpg" width="780" height="430" alt="Our top 10 Javascript frameworks to use"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Drew Cano</a>
@@ -237,8 +237,8 @@
                       </div>
                     </article>
                   </li>
-                  <li class="latest-posts__item">
-                    <article class="article-card">
+                  <li class="all-posts__item">
+                    <article class="article-card all-posts__article-card">
                       <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-6.jpg" width="780" height="430" alt="Podcast: Creating a better CX Community"/></div>
                       <div class="article-card__text-content">
                         <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Orlando Diggs</a>
@@ -253,7 +253,7 @@
                   </li>
                 </ul>
               </section>
-            </aside>
+            </div>
           </div>
         </div>
       </main>
