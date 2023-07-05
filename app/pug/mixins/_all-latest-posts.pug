@@ -1,7 +1,7 @@
-mixin all-posts(array)
+mixin all-latest-posts(array)
   each item in array
-    li.all-posts__item
-      article.article-card.all-posts__article-card
+    li.latest-posts__item
+      article.article-card
         .article-card__image-wrapper
           img(src="img/" + item.postImage width="780" height="430", alt= item.postTitle).article-card__image
         .article-card__text-content
