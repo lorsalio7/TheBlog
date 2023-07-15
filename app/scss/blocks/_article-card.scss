@@ -33,6 +33,14 @@
   flex-basis: 64.6%;
 }
 
+.projects__item .article-card__image-wrapper {
+  height: 330px;
+}
+
+.projects__item--full-width .article-card__image-wrapper {
+  height: 556px;
+}
+
 .article-card__image {
   display: block;
   width: 100%;

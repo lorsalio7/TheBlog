@@ -1,0 +1,14 @@
+mixin list-project(array)
+  each item in array
+    - let classItem = (item.modificationClass ? "projects__item projects__item--full-width" : "projects__item")
+    li(class= classItem)
+      article.article-card
+        .article-card__image-wrapper
+          img(src="img/" + item.postImage width="1216" height="556", alt= item.postTitle).article-card__image
+        .article-card__text-content
+          h3.article-card__title
+            a(href= item.postLink).article-card__link= item.postTitle
+          p.article-card__description= item.postDescription
+          p.badge-list
+            each badge in item.postBadges
+              a(href="#" class="badge-list__item badge-list__item--" + badge.badgeColor)= badge.badgeName

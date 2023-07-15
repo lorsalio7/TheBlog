@@ -11,6 +11,7 @@ block mixins
   include ../mixins/_all-posts-items.pug
   include ../mixins/_all-latest-posts.pug
   include ../mixins/_footer-list.pug
+  include ../mixins/_project-items.pug
 
 
 doctype html
@@ -22,6 +23,7 @@ html(lang="en" class= htmlClass + additionalClasses)
     title= pageTitle
     link(rel="shortcut icon" type="image/svg+xml" href="img/favicon.svg")
     link(rel="shortcut icon" type="image/png" href="img/favicon.png")
+    script(src="js/resizeToFit.js" defer)
     block styles
       link(rel="stylesheet", href="css/styles.min.css")
   body(class= bodyClass).full-height
