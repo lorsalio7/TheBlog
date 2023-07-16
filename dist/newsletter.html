@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="page full-height" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="shortcut icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script src="js/resizeToFit.js" defer></script>
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body class="page__body full-height">
+    <div class="wrapper">
+      <header class="site-header page__site-header">
+        <div class="container site-header__container"><a class="logo" href="/">Your Name</a>
+          <nav class="site-navigation">
+            <ul class="site-navigation__list">
+              <li class="site-navigation__item"><a class="site-navigation__link" href="#">Blog</a></li>
+              <li class="site-navigation__item"><a class="site-navigation__link" href="#">Projects</a></li>
+              <li class="site-navigation__item"><a class="site-navigation__link" href="#">About</a></li>
+              <li class="site-navigation__item"><a class="site-navigation__link" href="#">Newsletter</a></li>
+            </ul>
+            <button class="theme-toggle" type="button" aria-label="Change theme"><span class="theme-toggle__switch-slider"></span></button>
+            <button class="close-button" type="button" aria-label="Close menu"><span class="close-button__line"></span></button>
+          </nav>
+          <button class="burger-button" type="button" aria-label="Open menu"><span class="burger-button__line"></span></button>
+        </div>
+      </header>
+      <main class="main">
+        <h1 class="visually-hidden">Subscribe to newsletter</h1>
+        <section class="page__subscription subscription">
+          <div class="container">
+            <header class="subscription__header">
+              <h2 class="subscription__title">Newsletters</h2>
+              <p class="subscription__subtitle">Stories and interviews</p>
+            </header>
+            <p class="subscription__description">Subscribe to learn about new product features, the latest in technology, solutions, and updates.</p>
+            <form class="subscription-form subscription__form" action="#">
+              <div class="subscription-form__row">
+                <div class="subscription-form__input-wrapper">
+                  <input class="subscription-form__input" type="text" name="user-email" id="user-email" placeholder="Enter your email">
+                  <label class="visually-hidden" for="user-email">Your email</label>
+                  <p class="subscription-form__signature">We care about your data in our <a href="#">privacy policy</a></p>
+                </div>
+                <div class="subscription-form__button-wrapper">
+                  <button class="button subscription-form__button" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="all-posts">
+          <div class="container">
+            <h2 class="section-title">All blog posts</h2>
+            <ul class="all-posts__list">
+              <li class="all-posts__item">
+                <article class="article-card all-posts__article-card">
+                  <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-1.jpg" width="780" height="430" alt="UX review presentations"/></div>
+                  <div class="article-card__text-content">
+                    <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Olivia Rhye</a>
+                      <time class="article-meta__date" datetime="2023-01-01">1 Jan 2023</time>
+                    </p>
+                    <h3 class="article-card__title"><a class="article-card__link" href="#">UX review presentations</a></h3>
+                    <p class="article-card__description">How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+                    <p class="badge-list"><a class="badge-list__item badge-list__item--purple" href="#">Leadership</a><a class="badge-list__item badge-list__item--dark-blue" href="#">Management</a><a class="badge-list__item badge-list__item--red-violet" href="#">Presentation</a>
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li class="all-posts__item">
+                <article class="article-card all-posts__article-card">
+                  <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-2.jpg" width="780" height="430" alt="Migrating to Linear 101"/></div>
+                  <div class="article-card__text-content">
+                    <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Phoenix Baker</a>
+                      <time class="article-meta__date" datetime="2023-01-01">1 Jan 2023</time>
+                    </p>
+                    <h3 class="article-card__title"><a class="article-card__link" href="#">Migrating to Linear 101</a></h3>
+                    <p class="article-card__description">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...</p>
+                    <p class="badge-list"><a class="badge-list__item badge-list__item--cerulean" href="#">Product</a><a class="badge-list__item badge-list__item--deep-blue" href="#">Research</a><a class="badge-list__item badge-list__item--orange" href="#">Frameworks</a>
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li class="all-posts__item">
+                <article class="article-card all-posts__article-card">
+                  <div class="article-card__image-wrapper"><img class="article-card__image" src="img/all-posts-img-3.jpg" width="780" height="430" alt="Building your API Stack"/></div>
+                  <div class="article-card__text-content">
+                    <p class="article-meta article-card__article-meta"><a class="article-meta__author" href="#">Lana Steiner</a>
+                      <time class="article-meta__date" datetime="2023-01-01">1 Jan 2023</time>
+                    </p>
+                    <h3 class="article-card__title"><a class="article-card__link" href="#">Building your API Stack</a></h3>
+                    <p class="article-card__description">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</p>
+                    <p class="badge-list"><a class="badge-list__item badge-list__item--purple" href="#">Design</a><a class="badge-list__item badge-list__item--deep-blue" href="#">Research</a><a class="badge-list__item badge-list__item--red-violet" href="#">Presentation</a>
+                    </p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="container site-footer__container">
+          <p class="site-footer__copyright">&copy; 2023</p>
+          <ul class="site-footer__list">
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Twitter</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">LinkedIn</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Email</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">RSS feed</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Add to Feedly</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.min.js" defer></script>
+  </body>
+</html>

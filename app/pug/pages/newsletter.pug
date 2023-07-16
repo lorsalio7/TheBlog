@@ -1,0 +1,13 @@
+extends ../layout/main-template.pug
+
+block vars
+  - var pageTitle = "Newsletter";
+  - var htmlClass = "page";
+  - var additionalClasses = " full-height";
+  - var bodyClass = "page__body";
+
+
+block content
+  include ../sections/_header.pug
+  include ../sections/_newsletter-main.pug
+  include ../sections/_footer.pug

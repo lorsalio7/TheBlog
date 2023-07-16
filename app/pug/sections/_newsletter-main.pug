@@ -1,0 +1,21 @@
+main.main
+  h1.visually-hidden Subscribe to newsletter
+  section.page__subscription.subscription
+    .container
+      header.subscription__header
+        h2.subscription__title Newsletters
+        p.subscription__subtitle Stories and interviews
+      p.subscription__description Subscribe to learn about new product features, the latest in technology, solutions, and updates.
+      form(action="#").subscription-form.subscription__form
+        .subscription-form__row
+          .subscription-form__input-wrapper
+            input(type="text" name="user-email" id="user-email" placeholder="Enter your email").subscription-form__input
+            label(for="user-email").visually-hidden Your email
+            p.subscription-form__signature We care about your data in our #[a(href="#") privacy policy]
+          .subscription-form__button-wrapper
+            button(type="submit").button.subscription-form__button Subscribe
+  section.all-posts
+    .container
+      h2.section-title All blog posts
+      ul.all-posts__list
+        +all-posts(allPostsNewsletters)
