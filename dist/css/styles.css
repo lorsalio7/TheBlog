@@ -562,6 +562,10 @@ body {
   margin-bottom: 64px;
 }
 
+.page__about {
+  margin-bottom: -13px;
+}
+
 .site-header {
   padding: 30px 0;
 }
@@ -1277,6 +1281,10 @@ body {
   color: var(--color-paragraph);
 }
 
+.raw-content--about p {
+  margin-bottom: 32px;
+}
+
 .raw-content p a {
   color: var(--color-paragraph);
 }
@@ -1284,6 +1292,14 @@ body {
 .raw-content figure {
   margin: 0;
   margin-bottom: 12px;
+}
+
+.raw-content img {
+  display: block;
+  margin-bottom: 32px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .raw-content figure img {
@@ -1308,6 +1324,11 @@ body {
   margin-bottom: 12px;
   font-size: 18px;
   color: var(--color-title);
+}
+
+.raw-content--about h2 {
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .raw-content h3 {
@@ -1342,6 +1363,10 @@ body {
   margin-top: 0;
   margin-bottom: 12px;
   padding-left: 24px;
+}
+
+.raw-content--about ul {
+  margin-bottom: 32px;
 }
 
 .raw-content ul li {
