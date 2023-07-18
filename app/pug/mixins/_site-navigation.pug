@@ -1,4 +1,7 @@
 mixin site_menu(array)
   each item in array
     li.site-navigation__item
-      a(href= item.linkUrl class="site-navigation__link")= item.linkTitle
+      if pageTitle === item.page
+        a(href= item.linkUrl class="site-navigation__link site-navigation__link--active")= item.linkTitle
+      else
+        a(href= item.linkUrl class="site-navigation__link")= item.linkTitle
