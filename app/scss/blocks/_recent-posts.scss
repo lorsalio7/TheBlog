@@ -2,12 +2,22 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
+
+  @include px940 {
+    flex-direction: column;
+  }
 }
 
 .recent-posts__column {
-  flex: 1 1 50%;
+  flex: 1 0.5 50%;
 }
 
 .recent-posts__column:first-of-type {
+  flex-shrink: 8;
   margin-right: 32px;
+
+  @include px940 {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
 }

@@ -4,6 +4,10 @@
 
 .page__page-title {
   margin-bottom: 60px;
+
+  @include px425 {
+    margin-bottom: 50px;
+  }
 }
 
 .page__recent-posts {

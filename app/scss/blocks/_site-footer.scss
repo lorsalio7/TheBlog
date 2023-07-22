@@ -4,6 +4,12 @@
 
 .site-footer__container {
   display: flex;
+  flex-wrap: wrap;
+
+  @include px680 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 
 .site-footer__copyright {
@@ -16,13 +22,25 @@
 
 .site-footer__list {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @include px680 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }
 
 .site-footer__item:not(:last-of-type) {
   margin-right: 15px;
+
+  @include px680 {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
 
 .site-footer__link {

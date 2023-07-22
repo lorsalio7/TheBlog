@@ -1,5 +1,17 @@
 .container {
+  --container-width: 1246px;
+
   margin: 0 auto;
   padding: 0 15px;
   max-width: var(--container-width);
+
+  @include px940 {
+    --container-width: 800px;
+
+    padding: 0 32px;
+  }
+
+  @include px375 {
+    padding: 0 15px;
+  }
 }

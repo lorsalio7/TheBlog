@@ -1,14 +1,17 @@
 .burger-button {
   position: relative;
-  z-index: 150;
   display: none;
   border: none;
   padding: 0;
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   box-sizing: border-box;
   background-color: transparent;
   cursor: pointer;
+
+  @include px680 {
+    display: block;
+  }
 }
 
 .burger-button__line {
@@ -16,9 +19,10 @@
   left: 50%;
   top: 50%;
   display: block;
-  width: 28px;
-  height: 2px;
-  background-color: var(--color-black);
+  border-radius: 2px;
+  width: 24px;
+  height: 3px;
+  background-color: var(--color-title);
   transform: translate(-50%, -50%);
   transition: background-color 0.3s ease;
 }
@@ -27,11 +31,12 @@
   content: "";
   position: absolute;
   left: 0;
-  top: -10px;
+  top: -7px;
   display: block;
-  width: 28px;
-  height: 2px;
-  background-color: var(--color-black);
+  border-radius: 2px;
+  width: 24px;
+  height: 3px;
+  background-color: var(--color-title);
   transition:
     top 0.3s 0.3s ease,
     transform 0.3s ease;
@@ -41,32 +46,13 @@
   content: "";
   position: absolute;
   left: 0;
-  top: 10px;
+  top: 7px;
   display: block;
-  width: 28px;
-  height: 2px;
-  background-color: var(--color-black);
+  border-radius: 2px;
+  width: 24px;
+  height: 3px;
+  background-color: var(--color-title);
   transition:
     top 0.3s 0.3s ease,
     transform 0.3s ease;
-}
-
-.burger-button--active .burger-button__line {
-  background-color: transparent;
-}
-
-.burger-button--active .burger-button__line::before {
-  top: 0;
-  transform: rotate(45deg);
-  transition:
-    top 0.3s ease,
-    transform 0.3s 0.3s ease;
-}
-
-.burger-button--active .burger-button__line::after {
-  top: 0;
-  transform: rotate(-45deg);
-  transition:
-    top 0.3s ease,
-    transform 0.3s 0.3s ease;
 }

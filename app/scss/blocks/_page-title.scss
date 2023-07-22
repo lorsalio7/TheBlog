@@ -1,6 +1,28 @@
-.page-title__container {
+.page-title {
   border-top: 1px solid var(--color-title-border);
   border-bottom: 1px solid var(--color-title-border);
+
+  @include px940 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: none;
+  }
+}
+
+.page-title__container {
+  @include px940 {
+    margin: 0 auto;
+    padding-right: 32px;
+    padding-left: 32px;
+    max-width: var(--container-width);
+  }
+
+  @include px375 {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .page-title__text {

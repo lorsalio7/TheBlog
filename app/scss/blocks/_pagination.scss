@@ -5,6 +5,10 @@
   border-top: 1px solid var(--color-pagination-border);
   padding-top: 21px;
   padding-bottom: 30px;
+
+  @include px680 {
+    flex-direction: column;
+  }
 }
 
 .pagination__previous-link {
@@ -20,6 +24,10 @@
 
   @include hover-focus {
     text-decoration: underline;
+  }
+
+  @include px680 {
+    margin-bottom: 20px;
   }
 }
 
@@ -62,6 +70,10 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @include px680 {
+    margin-bottom: 20px;
+  }
 }
 
 .pagination__item:not(:last-of-type) {

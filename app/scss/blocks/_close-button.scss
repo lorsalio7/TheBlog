@@ -1,3 +1,36 @@
 .close-button {
-  display: none;
+  position: relative;
+  border: none;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close-button__line {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  border-radius: 2px;
+  width: 24px;
+  height: 3px;
+  background-color: var(--color-title);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  transition: background-color 0.3s ease;
+}
+
+.close-button__line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  border-radius: 2px;
+  width: 24px;
+  height: 3px;
+  background-color: var(--color-title);
+  transform: rotate(270deg);
 }
