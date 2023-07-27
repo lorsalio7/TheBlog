@@ -1,6 +1,10 @@
 .full-post {
   display: flex;
   flex-direction: row-reverse;
+
+  @include px940 {
+    flex-direction: column;
+  }
 }
 
 .full-post__article-post {
@@ -8,9 +12,17 @@
   flex-shrink: 1;
   margin-bottom: 32px;
   max-width: 780px;
+
+  @include px940 {
+    margin-bottom: 64px;
+  }
 }
 
 .full-post__latest-posts {
   flex: 1 1 404px;
   margin-right: 32px;
+
+  @include px940 {
+    margin-right: 0;
+  }
 }

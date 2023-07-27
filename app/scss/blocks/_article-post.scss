@@ -1,5 +1,9 @@
 .article-post__article-meta {
   margin-bottom: 32px;
+
+  @include px375 {
+    margin-bottom: 16px;
+  }
 }
 
 .article-post__title {
@@ -8,6 +12,10 @@
   font-weight: 700;
   font-size: 36px;
   color: var(--color-title);
+
+  @include px375 {
+    margin-bottom: 16px;
+  }
 }
 
 .article-post__image {
@@ -16,4 +24,8 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+
+  @include px375 {
+    margin-bottom: 16px;
+  }
 }

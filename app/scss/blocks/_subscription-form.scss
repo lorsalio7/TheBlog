@@ -1,11 +1,20 @@
 .subscription-form__row {
   display: flex;
   justify-content: center;
+
+  @include px375 {
+    flex-direction: column;
+  }
 }
 
 .subscription-form__input-wrapper {
   flex-basis: 360px;
   margin-right: 16px;
+
+  @include px375 {
+    flex-basis: auto;
+    margin-right: 0;
+  }
 }
 
 .subscription-form__input {
@@ -22,6 +31,10 @@
   font-size: 14px;
   line-height: 20px;
   color: var(--color-paragraph);
+
+  @include px375 {
+    margin-bottom: 10px;
+  }
 }
 
 .subscription-form__signature a {
@@ -29,5 +42,11 @@
 
   @include hover-focus {
     color: var(--color-accent);
+  }
+}
+
+.subscription-form__button {
+  @include px375 {
+    width: 100%;
   }
 }

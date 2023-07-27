@@ -3,7 +3,10 @@
 }
 
 .page__page-title {
+  margin-right: auto;
   margin-bottom: 60px;
+  margin-left: auto;
+  max-width: 1216px;
 
   @include px425 {
     margin-bottom: 50px;

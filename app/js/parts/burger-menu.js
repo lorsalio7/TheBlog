@@ -16,17 +16,23 @@ if(burgerButton) {
     setTimeout(() => {
       pageHtml.classList.remove("no-scroll");
     }, 300);
+
   }
 
   burgerButton.addEventListener("click", openMenu);
   closeNavigationButton.addEventListener("click", closeMenu);
 
-  function setHeightForMobile() {
-    const currentHeight = window.innerHeight;
-    document.body.style.height = `${currentHeight}px`;
+
+  function fixVh() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
 
-  setHeightForMobile();
+  fixVh();
+
+  window.addEventListener('resize', () => {
+    fixVh();
+  });
 
   document.addEventListener("keydown", (e) => {
     if(siteNavigation.classList.contains("site-navigation--active") && e.keyCode === 27) {

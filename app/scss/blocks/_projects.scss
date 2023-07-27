@@ -5,12 +5,22 @@
   margin: 0;
   margin-right: -32px;
   padding: 0;
+
+  @include px680 {
+    margin-right: 0;
+  }
 }
 
 .projects__item {
-  flex-basis: 592px;
+  flex-grow: 1;
+  flex-basis: calc((100% - 32px * 2) / 2);
   margin-right: 32px;
   margin-bottom: 32px;
+
+  @include px680 {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
 }
 
 .projects__item--full-width {

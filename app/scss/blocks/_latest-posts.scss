@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+.latest-posts__item .article-card__image-wrapper {
+  @include px940 {
+    height: 240px;
+  }
+
+  @include px425 {
+    height: 200px;
+  }
+}
+
 .latest-posts__item:not(:last-of-type) {
   margin-bottom: 32px;
 }

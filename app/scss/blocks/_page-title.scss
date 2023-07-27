@@ -16,12 +16,12 @@
     margin: 0 auto;
     padding-right: 32px;
     padding-left: 32px;
-    max-width: var(--container-width);
+    max-width: 800px;
   }
 
   @include px375 {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
