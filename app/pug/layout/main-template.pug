@@ -21,9 +21,10 @@ html(lang="en" class= htmlClass + additionalClasses)
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title= pageTitle
+    meta(name="description" content= pageDescription)
     link(rel="shortcut icon" type="image/svg+xml" href="img/favicon.svg")
     link(rel="shortcut icon" type="image/png" href="img/favicon.png")
-    script(src="js/resizeToFit.js" defer)
+    script(src="js/resizeToFit.js" async)
     block styles
       link(rel="stylesheet", href="css/styles.min.css")
   body(class= bodyClass).full-height

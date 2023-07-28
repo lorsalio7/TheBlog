@@ -4,7 +4,7 @@ mixin list-project(array)
     li(class= classItem)
       article.article-card
         .article-card__image-wrapper
-          img(src="img/" + item.postImage width="1216" height="556", alt= item.postTitle).article-card__image
+          img(src="img/" + item.postImage width="1216" height="556" loading="lazy", alt= item.postTitle).article-card__image
         .article-card__text-content
           h3.article-card__title
             a(href= item.postLink).article-card__link= item.postTitle

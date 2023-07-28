@@ -3,7 +3,7 @@ mixin all-latest-posts(array)
     li.latest-posts__item
       article.article-card
         .article-card__image-wrapper
-          img(src="img/" + item.postImage width="780" height="430", alt= item.postTitle).article-card__image
+          img(src="img/" + item.postImage width="780" height="430" loading="lazy", alt= item.postTitle).article-card__image
         .article-card__text-content
           p.article-meta.article-card__article-meta
             a(href= item.postAuthorLink).article-meta__author= item.postAuthor

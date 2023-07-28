@@ -6,6 +6,8 @@ if(burgerButton) {
   const pageHtml = document.querySelector("html");
   let burgerMenuWidth = window.matchMedia("(max-width: 680px)");
 
+
+
   function openMenu() {
     pageHtml.classList.add("no-scroll");
     siteNavigation.classList.add("site-navigation--active");
@@ -16,7 +18,6 @@ if(burgerButton) {
     setTimeout(() => {
       pageHtml.classList.remove("no-scroll");
     }, 300);
-
   }
 
   burgerButton.addEventListener("click", openMenu);
@@ -30,9 +31,9 @@ if(burgerButton) {
 
   fixVh();
 
-  window.addEventListener('resize', () => {
+  window.addEventListener('resize', debounce(() => {
     fixVh();
-  });
+  }, 300));
 
   document.addEventListener("keydown", (e) => {
     if(siteNavigation.classList.contains("site-navigation--active") && e.keyCode === 27) {
