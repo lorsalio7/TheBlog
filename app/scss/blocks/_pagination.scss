@@ -102,6 +102,7 @@
 .pagination__link--current {
   color: var(--color-pagination-current);
   background-color: var(--color-pagination-current-bg);
+  cursor: default;
 }
 
 .pagination__link--disabled {
