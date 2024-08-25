@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 
-  @include px375 {
+  @include max-xs {
     flex-direction: column;
   }
 }
@@ -11,7 +11,7 @@
   flex-basis: 360px;
   margin-right: 16px;
 
-  @include px375 {
+  @include max-xs {
     flex-basis: auto;
     margin-right: 0;
   }
@@ -32,7 +32,7 @@
   line-height: 20px;
   color: var(--color-paragraph);
 
-  @include px375 {
+  @include max-xs {
     margin-bottom: 10px;
   }
 }
@@ -46,7 +46,7 @@
 }
 
 .subscription-form__button {
-  @include px375 {
+  @include max-xs {
     width: 100%;
   }
 }

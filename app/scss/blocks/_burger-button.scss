@@ -9,7 +9,7 @@
   background-color: transparent;
   cursor: pointer;
 
-  @include px680 {
+  @include max-md {
     display: block;
   }
 }

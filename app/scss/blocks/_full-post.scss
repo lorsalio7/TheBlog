@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row-reverse;
 
-  @include px940 {
+  @include max-lg {
     flex-direction: column;
   }
 }
@@ -13,7 +13,7 @@
   margin-bottom: 32px;
   max-width: 780px;
 
-  @include px940 {
+  @include max-lg {
     margin-bottom: 64px;
   }
 }
@@ -22,7 +22,7 @@
   flex: 1 1 404px;
   margin-right: 32px;
 
-  @include px940 {
+  @include max-lg {
     margin-right: 0;
   }
 }

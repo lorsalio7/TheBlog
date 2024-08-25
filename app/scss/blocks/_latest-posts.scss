@@ -5,11 +5,11 @@
 }
 
 .latest-posts__item .article-card__image-wrapper {
-  @include px940 {
+  @include max-lg {
     height: 240px;
   }
 
-  @include px425 {
+  @include max-sm {
     height: 200px;
   }
 }

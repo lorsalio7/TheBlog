@@ -5,13 +5,13 @@
   padding: 0 15px;
   max-width: var(--container-width);
 
-  @include px940 {
+  @include max-lg {
     --container-width: 800px;
 
     padding: 0 32px;
   }
 
-  @include px375 {
+  @include max-xs {
     padding: 0 15px;
   }
 }

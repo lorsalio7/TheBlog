@@ -7,11 +7,11 @@
   margin-bottom: -19px;
   padding: 0;
 
-  @include px940 {
+  @include max-lg {
     margin-bottom: 5px;
   }
 
-  @include px680 {
+  @include max-md {
     margin-right: 0;
   }
 }
@@ -22,17 +22,17 @@
   margin-right: 32px;
   margin-bottom: 48px;
 
-  @include px940 {
+  @include max-lg {
     flex-basis: calc((100% - 32px * 2) / 2);
     margin-bottom: 24px;
   }
 
-  @include px680 {
+  @include max-md {
     flex-basis: 100%;
     margin-right: 0;
   }
 
-  @include px425 {
+  @include max-sm {
     margin-bottom: 24px;
   }
 }
@@ -40,7 +40,7 @@
 .all-posts__article-card .article-card__image-wrapper {
   height: 240px;
 
-  @include px375 {
+  @include max-xs {
     height: 200px;
   }
 }

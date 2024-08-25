@@ -3,7 +3,7 @@
   justify-content: space-between;
   margin-bottom: 60px;
 
-  @include px940 {
+  @include max-lg {
     flex-direction: column;
   }
 }
@@ -16,7 +16,7 @@
   flex-shrink: 8;
   margin-right: 32px;
 
-  @include px940 {
+  @include max-lg {
     margin-right: 0;
     margin-bottom: 32px;
   }

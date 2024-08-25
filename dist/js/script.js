@@ -100,8 +100,8 @@ if (burgerButton) {
 ;
 window.addEventListener("load", function () {
   resizeToFit.init([".page-title__text"]);
-  window.addEventListener("resize", debounce(function () {
-    resizeToFit.resize();
-  }, 200));
 });
+window.addEventListener("resize", debounce(function () {
+  resizeToFit.resize();
+}, 200));
 ;

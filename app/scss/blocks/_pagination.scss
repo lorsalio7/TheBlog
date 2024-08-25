@@ -6,7 +6,7 @@
   padding-top: 21px;
   padding-bottom: 30px;
 
-  @include px680 {
+  @include max-md {
     flex-direction: column;
   }
 }
@@ -26,7 +26,7 @@
     text-decoration: underline;
   }
 
-  @include px680 {
+  @include max-md {
     margin-bottom: 20px;
   }
 }
@@ -71,7 +71,7 @@
   margin: 0;
   padding: 0;
 
-  @include px680 {
+  @include max-md {
     margin-bottom: 20px;
   }
 }

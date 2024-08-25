@@ -4,7 +4,7 @@
   background-color: var(--color-primary);
   transition: background-color 0.3s ease-in-out;
 
-  @include px680 {
+  @include max-md {
     position: fixed;
     left: 0;
     right: 0;
@@ -23,7 +23,7 @@
 }
 
 .site-navigation--active {
-  @include px680 {
+  @include max-md {
     transform: translateY(0);
   }
 }
@@ -33,7 +33,7 @@
   margin-top: auto;
   margin-bottom: 54px;
 
-  @include px680 {
+  @include max-md {
     display: block;
   }
 }
@@ -48,7 +48,7 @@
   margin-bottom: -14px;
   padding: 0;
 
-  @include px680 {
+  @include max-md {
     flex-direction: column;
     padding-bottom: 20px;
   }
@@ -58,7 +58,7 @@
   margin-right: 14px;
   margin-bottom: 14px;
 
-  @include px680 {
+  @include max-md {
     margin-right: 0;
   }
 }
@@ -103,7 +103,7 @@
 .site-navigation__theme-toggle {
   flex-shrink: 0;
 
-  @include px680 {
+  @include max-md {
     margin-bottom: 30px;
   }
 }
@@ -112,7 +112,7 @@
   display: none;
   margin-top: auto;
 
-  @include px680 {
+  @include max-md {
     display: block;
   }
 }

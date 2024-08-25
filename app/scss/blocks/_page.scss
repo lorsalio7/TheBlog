@@ -8,7 +8,7 @@
   margin-left: auto;
   max-width: 1216px;
 
-  @include px425 {
+  @include max-sm {
     margin-bottom: 50px;
   }
 }
