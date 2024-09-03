@@ -55,7 +55,8 @@ const { src, dest } = require("gulp"),
     webp = require("gulp-webp"),
     avif = require("gulp-avif"),
     fs = require("fs"),
-    fileinclude = require("gulp-file-include");
+    fileinclude = require("gulp-file-include"),
+    pngquant = require("imagemin-pngquant");
 
 
 
@@ -92,14 +93,24 @@ function fonts() {
   .pipe(browsersync.stream())
 }
 function cssLibs() {
-  return src(path.src.css_libs)
-  .pipe(dest(path.build.css))
-  .pipe(browsersync.stream())
+  let filesCssLibs = fs.readdirSync("app/css_libs/");
+  if(filesCssLibs.length > 0) {
+    return src("app/css_libs/**")
+    .pipe(dest("dist/libs/css"))
+    .pipe(browsersync.stream())
+  } else {
+    return
+  }
 }
 function jsLibs() {
-  return src(path.src.js_libs)
-  .pipe(dest(path.build.js))
-  .pipe(browsersync.stream())
+  let filesJsLibs = fs.readdirSync("app/js_libs/");
+  if(filesJsLibs.length > 0) {
+    return src("app/js_libs/**")
+    .pipe(dest("dist/libs/js"))
+    .pipe(browsersync.stream())
+  } else {
+    return
+  }
 }
 
 function watchFiles(params) {
@@ -178,17 +189,19 @@ function images() {
     return src(path.src.img)
     // .pipe(src(path.src.img))
     .pipe(newer(path.build.img))
-    .pipe(imagemin([
-      imagemin.gifsicle({interlaced: true}),
-      imagemin.mozjpeg({quality: 85, progressive: true}),
-      imagemin.optipng({optimizationLevel: 6}),
-      imagemin.svgo({
+    .pipe(
+      imagemin([
+        imagemin.gifsicle({interlaced: true}),
+        pngquant({quality: [0.7, 0.9]}),
+        imagemin.mozjpeg({quality: 85, progressive: true}),
+        imagemin.svgo({
           plugins: [
-              {removeViewBox: false},
-              {cleanupIDs: false}
+            {removeViewBox: false},
+            {cleanupIDs: false}
           ]
-      })
-    ]))
+        })
+      ])
+    )
 
     .pipe(dest(path.build.img))
 
