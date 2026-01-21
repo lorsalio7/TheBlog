@@ -1,0 +1,344 @@
+{
+  "siteNavigation": [
+    { "linkTitle": "Blog", "linkUrl": "/", "page": "The Blog" },
+    { "linkTitle": "Projects", "linkUrl": "projects.html", "page": "Projects" },
+    { "linkTitle": "About", "linkUrl": "about.html", "page": "About" },
+    { "linkTitle": "Newsletter", "linkUrl": "newsletter.html", "page": "Newsletter" }
+  ],
+
+  "siteFooterList": [
+    { "linkUrl": "#", "linkName": "Twitter" },
+    { "linkUrl": "#", "linkName": "LinkedIn" },
+    { "linkUrl": "#", "linkName": "Email" },
+    { "linkUrl": "#", "linkName": "RSS feed" },
+    { "linkUrl": "#", "linkName": "Add to Feedly" }
+  ],
+
+  "allPostsList": [
+    {
+      "postImage": "all-posts-img-1.jpg",
+      "postAuthor": "Alec Whitten",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Bill Walsh leadership lessons",
+      "postDescription": "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Leadership", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Management", "badgeColor": "dark-blue" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-2.jpg",
+      "postAuthor": "Demi WIlkinson",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "PM mental models",
+      "postDescription": "Mental models are simple expressions of complex processes or relationships.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Product", "badgeColor": "cerulean" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Frameworks", "badgeColor": "orange" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-3.jpg",
+      "postAuthor": "Candice Wu",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "What is Wireframing?",
+      "postDescription": "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-4.jpg",
+      "postAuthor": "Natali Craig",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "How collaboration makes us better designers",
+      "postDescription": "Collaboration can make our teams stronger, and our individual designs better.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-5.jpg",
+      "postAuthor": "Drew Cano",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Our top 10 Javascript frameworks to use",
+      "postDescription": "JavaScript frameworks make development easy with extensive features and functionalities.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Software Development", "badgeColor": "green" },
+        { "badgeLink": "#", "badgeName": "Tools", "badgeColor": "red-violet" },
+        { "badgeLink": "#", "badgeName": "SaaS", "badgeColor": "pink" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-6.jpg",
+      "postAuthor": "Orlando Diggs",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Podcast: Creating a better CX Community",
+      "postDescription": "Starting a community doesn’t need to be complicated, but how do you get started?",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Podcasts", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Customer Success", "badgeColor": "dark-blue" }
+      ]
+    }
+  ],
+
+  "allPosts": [
+    {
+      "postImage": "recent-article-img-1.jpg",
+      "postAuthor": "Olivia Rhye",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "UX review presentations",
+      "postDescription": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Presentation", "badgeColor": "red-violet" }
+      ]
+    },
+    {
+      "postImage": "recent-article-img-2.jpg",
+      "postAuthor": "Phoenix Baker",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Migrating to Linear 101",
+      "postDescription": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "cerulean" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "red-violet" }
+      ]
+    },
+    {
+      "postImage": "recent-article-img-3.jpg",
+      "postAuthor": "Lana Steiner",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Building your API Stack",
+      "postDescription": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "green" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "red-violet" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-1.jpg",
+      "postAuthor": "Alec Whitten",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Bill Walsh leadership lessons",
+      "postDescription": "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Leadership", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Management", "badgeColor": "dark-blue" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-2.jpg",
+      "postAuthor": "Demi WIlkinson",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "PM mental models",
+      "postDescription": "Mental models are simple expressions of complex processes or relationships.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Product", "badgeColor": "cerulean" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Frameworks", "badgeColor": "orange" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-3.jpg",
+      "postAuthor": "Candice Wu",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "What is Wireframing?",
+      "postDescription": "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-4.jpg",
+      "postAuthor": "Natali Craig",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "How collaboration makes us better designers",
+      "postDescription": "Collaboration can make our teams stronger, and our individual designs better.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-5.jpg",
+      "postAuthor": "Drew Cano",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Our top 10 Javascript frameworks to use",
+      "postDescription": "JavaScript frameworks make development easy with extensive features and functionalities.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Software Development", "badgeColor": "green" },
+        { "badgeLink": "#", "badgeName": "Tools", "badgeColor": "red-violet" },
+        { "badgeLink": "#", "badgeName": "SaaS", "badgeColor": "pink" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-6.jpg",
+      "postAuthor": "Orlando Diggs",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Podcast: Creating a better CX Community",
+      "postDescription": "Starting a community doesn’t need to be complicated, but how do you get started?",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Podcasts", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Customer Success", "badgeColor": "dark-blue" }
+      ]
+    }
+  ],
+
+  "projectsList": [
+    {
+      "postImage": "project-img-1.jpg",
+      "postLink": "#",
+      "postTitle": "User Experience Design Dashboard Hotel Management",
+      "postDescription": "n the context of user experience (UX) design, a hotel management dashboard should be designed with the needs and goals of the hotel staff in mind. This means creating a clear and intuitive interface that allows staff to easily access and use the various tools and features of the dashboard.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Presentation", "badgeColor": "red-violet" }
+      ]
+    },
+    {
+      "postImage": "project-img-2.jpg",
+      "postLink": "#",
+      "postTitle": "Bring of User Experience Design to Policy Making, How to Impact Society",
+      "postDescription": "User experience (UX) design is a discipline that focuses on creating products and services that are easy to use, efficient, and enjoyable for users. In the context of policy making, UX design can be used to create policies that are effec",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Presentation", "badgeColor": "red-violet" }
+      ]
+    },
+    {
+      "modificationClass": " projects__item--full-width",
+      "postImage": "project-img-3.jpg",
+      "postLink": "#",
+      "postTitle": "UX review presentatiBringing Design Process to Teams, How to Solve User Problems with Data & Inclusive Collaboration Designons",
+      "postDescription": "There are many different design processes that can be followed when creating a hotel management dashboard. Here are some tips for bringing a design process to teams and using data and inclusive collaboration to solve user problems",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Presentation", "badgeColor": "red-violet" },
+        { "badgeLink": "#", "badgeName": "Collaboration", "badgeColor": "deep-blue" }
+      ]
+    },
+    {
+      "postImage": "project-img-4.jpg",
+      "postLink": "#",
+      "postTitle": "Icon Package of Slin Icon",
+      "postDescription": "An icon package is a collection of icons that can be used in various design projects, such as website design, app development, and graphic design.",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Branding", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Identity", "badgeColor": "red-violet" }
+      ]
+    },
+    {
+      "postImage": "project-img-5.jpg",
+      "postLink": "#",
+      "postTitle": "UX review presentations",
+      "postDescription": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Presentation", "badgeColor": "red-violet" }
+      ]
+    }
+  ],
+
+  "allPostsNewsletters": [
+    {
+      "postImage": "all-posts-img-1.jpg",
+      "postAuthor": "Olivia Rhye",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "UX review presentations",
+      "postDescription": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Leadership", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Management", "badgeColor": "dark-blue" },
+        { "badgeLink": "#", "badgeName": "Presentation", "badgeColor": "red-violet" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-2.jpg",
+      "postAuthor": "Phoenix Baker",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Migrating to Linear 101",
+      "postDescription": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Product", "badgeColor": "cerulean" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Frameworks", "badgeColor": "orange" }
+      ]
+    },
+    {
+      "postImage": "all-posts-img-3.jpg",
+      "postAuthor": "Lana Steiner",
+      "postAuthorLink": "#",
+      "postDate": "1 Jan 2023",
+      "postDateTime": "2023-01-01",
+      "postLink": "#",
+      "postTitle": "Building your API Stack",
+      "postDescription": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
+      "postBadges": [
+        { "badgeLink": "#", "badgeName": "Design", "badgeColor": "purple" },
+        { "badgeLink": "#", "badgeName": "Research", "badgeColor": "deep-blue" },
+        { "badgeLink": "#", "badgeName": "Presentation", "badgeColor": "red-violet" }
+      ]
+    }
+  ]
+}
