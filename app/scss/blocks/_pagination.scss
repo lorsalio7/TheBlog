@@ -17,7 +17,7 @@
   line-height: 20px;
   text-decoration: none;
   color: var(--color-pagination);
-  background-image: url("../img/arrow-left-day.svg");
+  background-image: url("../img/icons/arrow-left-day.svg");
   background-position: left center;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 }
 
 .dark-theme .pagination__previous-link {
-  background-image: url("../img/arrow-left-night.svg");
+  background-image: url("../img/icons/arrow-left-night.svg");
 }
 
 .pagination__next-link {
@@ -41,7 +41,7 @@
   line-height: 20px;
   text-decoration: none;
   color: var(--color-pagination);
-  background-image: url("../img/arrow-right-day.svg");
+  background-image: url("../img/icons/arrow-right-day.svg");
   background-position: right center;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 }
 
 .dark-theme .pagination__next-link {
-  background-image: url("../img/arrow-right-night.svg");
+  background-image: url("../img/icons/arrow-right-night.svg");
 }
 
 .pagination__previous-link--disable,

@@ -151,7 +151,7 @@
   line-height: 32px;
   text-decoration: none;
   color: var(--color-title);
-  background-image: url("../img/arrow-up-right-day.svg");
+  background-image: url("../img/icons/arrow-up-right-day.svg");
   background-position: top 3px right 0;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@
 }
 
 .dark-theme .article-card__link {
-  background-image: url("../img/arrow-up-right-night.svg");
+  background-image: url("../img/icons/arrow-up-right-night.svg");
 }
 
 .article-card--small-card .article-card__link {

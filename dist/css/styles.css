@@ -701,7 +701,7 @@ body {
   padding: 7px 16px;
   width: 96px;
   height: 40px;
-  background-image: url("../img/sun-ic.svg"), url("../img/moon-ic.svg");
+  background-image: url("../img/icons/sun-ic.svg"), url("../img/icons/moon-ic.svg");
   background-position: top 50% left 16px, top 50% right 16px;
   background-repeat: no-repeat;
   background-color: var(--color-secondary);
@@ -1013,7 +1013,7 @@ body {
   line-height: 32px;
   text-decoration: none;
   color: var(--color-title);
-  background-image: url("../img/arrow-up-right-day.svg");
+  background-image: url("../img/icons/arrow-up-right-day.svg");
   background-position: top 3px right 0;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -1022,7 +1022,7 @@ body {
 }
 
 .dark-theme .article-card__link {
-  background-image: url("../img/arrow-up-right-night.svg");
+  background-image: url("../img/icons/arrow-up-right-night.svg");
 }
 
 .article-card--small-card .article-card__link {
@@ -1156,14 +1156,14 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: var(--color-pagination);
-  background-image: url("../img/arrow-left-day.svg");
+  background-image: url("../img/icons/arrow-left-day.svg");
   background-position: left center;
   background-size: 20px;
   background-repeat: no-repeat;
 }
 
 .dark-theme .pagination__previous-link {
-  background-image: url("../img/arrow-left-night.svg");
+  background-image: url("../img/icons/arrow-left-night.svg");
 }
 
 .pagination__next-link {
@@ -1172,14 +1172,14 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: var(--color-pagination);
-  background-image: url("../img/arrow-right-day.svg");
+  background-image: url("../img/icons/arrow-right-day.svg");
   background-position: right center;
   background-size: 20px;
   background-repeat: no-repeat;
 }
 
 .dark-theme .pagination__next-link {
-  background-image: url("../img/arrow-right-night.svg");
+  background-image: url("../img/icons/arrow-right-night.svg");
 }
 
 .pagination__previous-link--disable,
