@@ -1948,12 +1948,12 @@ body {
     text-decoration: none;
   }
 
-  .pagination__link:focus {
+  .pagination__link[href]:focus {
     color: var(--color-pagination-current);
     background-color: var(--color-pagination-current-bg);
   }
 
-  .pagination__link:hover {
+  .pagination__link[href]:hover {
     color: var(--color-pagination-current);
     background-color: var(--color-pagination-current-bg);
   }
